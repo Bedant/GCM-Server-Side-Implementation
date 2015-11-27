@@ -13,7 +13,7 @@ $msg = array
     'message'       => '',
     'tag'         => '',
     'phone'      => '',
-    'tickerText'    => 'Ticker text here...Ticker text here...Ticker text here',
+    'tickerText'    => 'Ticker text here...',
     'vibrate'   => 1,
     'sound'     => 1
 );
@@ -21,7 +21,7 @@ $msg = array
 $fields = array
 (
 	'to'=>  '/topics/global',
-    'data'              => $msg
+    'data'=> $msg
 );
 
 $headers = array
